@@ -20,7 +20,7 @@ public interface VagaRepository extends JpaRepository<Vaga, Long> {
 	
 		
 		
-		
+		//Busca por placa
 		Vaga findByPlaca(String placa);
 		
 		List<Vaga> findByPlacaContainingIgnoreCase(String placa);
@@ -29,7 +29,7 @@ public interface VagaRepository extends JpaRepository<Vaga, Long> {
 		List<Vaga> findByPlacaLike(@Param("placa")String placa);
 		
 
-	
+		//Busca por nome 
 		Vaga findByName(String name);
 		
 		List<Vaga> findByNameContainingIgnoreCase(String name);

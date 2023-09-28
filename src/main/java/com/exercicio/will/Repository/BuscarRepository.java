@@ -10,7 +10,7 @@ import org.springframework.data.repository.query.Param;
 import com.exercicio.will.entitis.StatusEntradaSaida;
 import com.exercicio.will.entitis.Vaga;
 
-public interface BuscarPlacaRepository extends JpaRepository<Vaga, Long> {
+public interface BuscarRepository extends JpaRepository<Vaga, Long> {
 	
 	
 	
