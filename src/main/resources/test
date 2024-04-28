@@ -1,2 +1,1 @@
-CREATE TABLE "VagaEstacionamento"."tb_status" ("id" BIGSERIAL, "name" "char"(255), "status" "char"(255), PRIMARY KEY ("id")) WITHOUT OIDS
-
+CREATE TABLE "tb_status" ("id" BIGSERIAL, "name" character (255), "status" character (255), PRIMARY KEY ("id")) WITHOUT OIDS
